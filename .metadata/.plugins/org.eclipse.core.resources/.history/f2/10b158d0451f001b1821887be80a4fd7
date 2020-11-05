@@ -1,0 +1,7 @@
+package com.everis.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmpleadoRepoJPA extends JpaRepository<Empleado,Integer> {
+
+}

@@ -1,6 +1,0 @@
-package com.everis.repository;
-
-public interface EmpleadoRepo {
-	public void registrar(String nombre);
-	public void listarCuyoNombreContiene(String texto_nombre);
-}
